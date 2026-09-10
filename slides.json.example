@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Application Name",
+    "tag": "A tag goes here",
+    "description": "A description goes here.",
+    "image": "assets/images/default.png",
+    "ip": "192.168.0.1",
+    "port": "6030",
+    "path": "dashboard"
+  },
+  {
+    "name": "Application Name for local demo",
+    "tag": "A tag goes here",
+    "description": "A description goes here.",
+    "image": "assets/images/default.png",
+    "ip": "",
+    "port": "6031",
+    "path": "dashboard"
+  }
+]
