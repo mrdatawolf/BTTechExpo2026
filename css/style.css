@@ -15,7 +15,7 @@
 }
 
 body.has-testimonials{
-  --testimonial-h:calc((100vh - var(--footer-h)) / 3);
+  --testimonial-h:25vh;
 }
 
 *{box-sizing:border-box;}
