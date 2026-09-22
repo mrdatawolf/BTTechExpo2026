@@ -125,6 +125,7 @@
     var incoming = slides[newIndex];
     index = newIndex;
     dots.forEach(function (dot, di) { dot.setAttribute('aria-current', di === index ? 'true' : 'false'); });
+    if (window.advanceTestimonial) window.advanceTestimonial();
     isAnimating = true;
     window.playTransition(outgoing, incoming, track, pickEffect()).then(function () {
       isAnimating = false;

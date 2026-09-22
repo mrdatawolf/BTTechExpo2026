@@ -1,0 +1,18 @@
+[
+  {
+    "quote": "This cut our onboarding time in half — new hires are productive on day one now.",
+    "author": "Jane Doe",
+    "role": "Operations Manager",
+    "company": "Acme Co."
+  },
+  {
+    "quote": "Finally, one dashboard instead of five spreadsheets. Our whole team lives in it.",
+    "author": "Sam Rivera",
+    "role": "Project Lead",
+    "company": "Rivera Construction"
+  },
+  {
+    "quote": "Support tickets get resolved same-day now instead of sitting for a week.",
+    "author": "Priya Nair"
+  }
+]
