@@ -64,30 +64,30 @@ img{max-width:100%;display:block;}
 body.has-testimonials .testimonial{display:flex;}
 
 .testimonial-inner{
-  max-width:1400px;
+  max-width:1600px;
   width:100%;
   text-align:center;
   display:flex;
   flex-direction:column;
   align-items:center;
-  gap:0.5rem;
+  gap:0.4rem;
   opacity:0;
   transition:opacity 500ms ease;
 }
 .testimonial.is-visible .testimonial-inner{opacity:1;}
 
 .testimonial-quote{
-  font-family:'Poppins',system-ui,sans-serif;
-  font-weight:600;
-  font-size:clamp(1rem,1.7vw,2.1rem);
+  font-family:'Work Sans',system-ui,sans-serif;
+  font-weight:500;
+  font-size:clamp(0.8rem,1vw,1.3rem);
   color:#fff;
-  line-height:1.35;
+  line-height:1.4;
 }
 .testimonial-quote::before{content:'\201C';}
 .testimonial-quote::after{content:'\201D';}
 
 .testimonial-author{
-  font-size:clamp(0.82rem,0.95vw,1.2rem);
+  font-size:clamp(0.72rem,0.7vw,0.95rem);
   color:var(--accent);
   font-weight:600;
 }

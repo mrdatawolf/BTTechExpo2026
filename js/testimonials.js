@@ -36,7 +36,10 @@
     var bits = [];
     if (t.role) bits.push(t.role);
     if (t.company) bits.push(t.company);
-    return bits.length ? t.author + ' — ' + bits.join(', ') : t.author;
+    var roleCompany = bits.join(', ');
+    var author = t.author || '';
+    if (author && roleCompany) return author + ' — ' + roleCompany;
+    return author || roleCompany;
   }
 
   function render(t) {
